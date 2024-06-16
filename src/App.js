@@ -1,24 +1,35 @@
 import "./App.css";
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Credits from "./components/Credits";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import { Box, Container } from "@mui/material";
 
-function App() {
+const MainPage = () => {
   return (
-    <div className="App">
+    <Box
+      component="main"
+      sx={{
+        display: "flex",
+        minHeight: "100vh",
+        flexDirection: "column",
+        bgcolor: "white",
+      }}
+    >
       <Navbar />
-      <div>
+      <Container maxWidth={"md"} sx={{mt: 12}} >
         <Hero />
         <About />
         <Experience />
         <Projects />
+        <Contact />
         <Credits />
-      </div>
-    </div>
+      </Container>
+    </Box>
   );
-}
+};
 
-export default App;
+export default MainPage;
