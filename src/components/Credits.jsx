@@ -3,10 +3,10 @@ import React from "react";
 
 const Credits = () => {
   return (
-    <Container>
-      <Typography>Bulit by Arathi Vallipuranathan</Typography>
+    <Container sx={{ mt: 3, bgcolor: "#050F1F"}}>
+      <Typography>Built by Arathi Vallipuranathan</Typography>
       <Typography>All rights reserved. ©</Typography>
-      <Typography>Made with React, MaterialUI, and ❤️</Typography>
+      <Typography>Made with React, MUI, and ❤️</Typography>
     </Container>
   );
 };

@@ -4,13 +4,11 @@ import React from "react";
 const Hero = () => {
   return (
     <Container maxWidth={"md"}>
-      <Typography>
+      <Typography variant='h4'>
         Hi, I'm
-        <Typography>Arathi!</Typography>
+        <Typography variant='h1' color={'#34a181'}>Arathi!</Typography>
       </Typography>
-      <Typography>Software Developer</Typography>
-      <Typography>CS @ TMU</Typography>
-      <Typography>Toronto, Canada</Typography>
+      <Typography variant="h5">Software Developer | CS @ TMU</Typography>
     </Container>
   );
 };

@@ -5,7 +5,7 @@ import Credits from "./components/Credits";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import Project from "./components/Projects";
 import { Box, Container } from "@mui/material";
 
 const MainPage = () => {
@@ -16,18 +16,19 @@ const MainPage = () => {
         display: "flex",
         minHeight: "100vh",
         flexDirection: "column",
-        bgcolor: "white",
+        bgcolor: "#191c2d",
+        color: "#fae4e7",
       }}
     >
       <Navbar />
-      <Container maxWidth={"md"} sx={{mt: 12}} >
+      <Container maxWidth={"md"} sx={{ mt: 12 }}>
         <Hero />
         <About />
         <Experience />
-        <Projects />
+        <Project />
         <Contact />
-        <Credits />
       </Container>
+      <Credits />
     </Box>
   );
 };

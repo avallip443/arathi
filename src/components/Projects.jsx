@@ -1,52 +1,18 @@
-import { Box, Container, Stack, Typography } from "@mui/material";
-import React from "react";
+import { Container, Stack, Typography } from "@mui/material";
+import { ProjectInfo } from "../utils/info";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <Container>
-      <Typography variant="h5">Projects</Typography>
-
-      <Box>
-        <Stack>
-          <br />
-          <Typography>Instagram Clone</Typography>
-          <Typography>Links:</Typography>
-          <Typography>React, Firebase, ChakraUI</Typography>
-          <Typography>
-            Replica of social media app Instagram, featuring user
-            authentication, post-creation, real-time user interactions, profile
-            customization, and responsive design
-          </Typography>
-        </Stack>
-      </Box>
-
-      <Box>
-        <Stack>
-          <br />
-          <Typography>SoocerSphere</Typography>
-          <Typography>Links:</Typography>
-          <Typography>React, Firebase, ChakraUI</Typography>
-          <Typography>
-            Replica of social media app Instagram, featuring user
-            authentication, post-creation, real-time user interactions, profile
-            customization, and responsive design
-          </Typography>
-        </Stack>
-      </Box>
-
-      <Box>
-        <Stack>
-          <br />
-          <Typography>Pokemon Twitter Bot</Typography>
-          <Typography>Links:</Typography>
-          <Typography>React, Firebase, ChakraUI</Typography>
-          <Typography>
-            Replica of social media app Instagram, featuring user
-            authentication, post-creation, real-time user interactions, profile
-            customization, and responsive design
-          </Typography>
-        </Stack>
-      </Box>
+    <Container sx={{ mt: 3 }}>
+      <Typography variant="h5" color={"#34a181"}>
+        Projects
+      </Typography>
+      <Stack spacing={3}>
+        {ProjectInfo.map((project, index) => (
+          <ProjectCard key={index} project={project} />
+        ))}
+      </Stack>
     </Container>
   );
 };
