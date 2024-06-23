@@ -1,18 +1,24 @@
-import { Container, Stack, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 import { ProjectInfo } from "../utils/info";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <Container sx={{ mt: 3 }}>
-      <Typography variant="h5" color={"#34a181"}>
+    <Container sx={{ mt: 6 }}>
+      <Typography variant="h5" color={"#34a181"} textAlign={"center"}>
         Projects
       </Typography>
-      <Stack spacing={3}>
+      <Grid
+        container
+        spacing={4}
+        mt={2}
+      >
         {ProjectInfo.map((project, index) => (
-          <ProjectCard key={index} project={project} />
+          <Grid item xs={12} sm={6} md={4} key={index}>
+            <ProjectCard project={project} />
+          </Grid>
         ))}
-      </Stack>
+      </Grid>
     </Container>
   );
 };
