@@ -54,9 +54,10 @@ const About = () => {
                 About Me
               </Typography>
               <Typography>
-                👋 Hey! I'm Arathi Vallipuranathan, a third-year Computer Science Co-Op student
-                at Toronto Metropolitan University. I'm seeking internship
-                opportunities for Winter 2024 and Summer 2025. <br />
+                👋 Hey! I'm Arathi Vallipuranathan, a third-year Computer
+                Science Co-Op student at Toronto Metropolitan University. I'm
+                seeking internship opportunities for Winter 2024 and Summer
+                2025. <br />
               </Typography>
               <Typography>
                 I have a passion for front-end development, but I'm also
@@ -64,7 +65,7 @@ const About = () => {
                 my professional experiences and personal projects. <br />
               </Typography>
               <Typography>
-                Outside of coding, you'll probably find me reading, binge
+                When I'm not coding, you'll probably find me reading, binge
                 watching, or spending time with friends and family. <br />
               </Typography>
               <Box

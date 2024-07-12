@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
         borderRadius: "16px",
         overflow: "hidden",
         color: "black",
-        height: { xs: 300, sm: 280, md: 260 },
+        height: { xs: 320, sm: 300, md: 260 },
         "&:hover": {
           backgroundColor: "#374375",
           color: "white",
