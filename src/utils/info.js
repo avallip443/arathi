@@ -3,10 +3,10 @@ import MailIcon from "@mui/icons-material/Mail";
 export const ExperienceInfo = [
   {
     title: "Software Developer Intern",
-    company: "🏘️ Aisha Home Services",
-    length: "Apr 2024 - Present",
+    company: "🏘️ Home Services Inc.",
+    length: "Apr 2024 - Jul 2024",
     location: "Toronto, CA",
-    image: "experience/aisha-home-services.jpeg",
+    image: "experience/home-services.jpeg",
   },
   {
     title: "Web Developer",
@@ -48,12 +48,28 @@ export const ProjectInfo = [
       "Instagram replica with user authentication and real-time post-creation and interactions.",
   },
   {
-    title: "⚽ SoccerSphere",
+    title: "⚽ SoccerSphere [Ongoing]",
     githubURL: "https://github.com/avallip443/player-stats-data-scraping",
     previewURL: "",
-    tools: "React, Spring Boot, Postgres, Python",
+    tools: "React, Spring, PostgreSQL, Python",
     description:
-      "Developing a web app for analyzing match statistics for LaLiga players with real-time data updates.",
+      "Developing a web app for analyzing LaLiga match statistics with real-time data updates.",
+  },
+  {
+    title: "⚔️ WarriorQuest",
+    githubURL: "https://github.com/avallip443/WarriorQuest",
+    previewURL: "https://avallip.itch.io/warriorquest",
+    tools: "Python, Pygame",
+    description:
+      "A 2D turn-based RPG game where you battle against powerful enemies to become the ultimate warrior.",
+  },
+  {
+    title: "🏋️ Workit [Ongoing]",
+    githubURL: "https://github.com/avallip443/workit",
+    previewURL: "",
+    tools: "React Native, TypeScript, PostgreSQL",
+    description:
+      "A mobile app for creating and managing interval training workouts.",
   },
   {
     title: "🤖 Pokemon Twitter Bot",
@@ -67,7 +83,7 @@ export const ProjectInfo = [
     title: "💵 Expense Tracker",
     githubURL: "https://github.com/avallip443/expense-tracker",
     previewURL: "https://expense-tracker-app-sage.vercel.app/",
-    tools: "MongoDB, ExpressJS, React, NodeJS",
+    tools: "MongoDB, ExpressJS, ReactJS, NodeJS",
     description:
       "A tracker for logging, categorizing, and visualizing daily expenses.",
   },
