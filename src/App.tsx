@@ -7,13 +7,15 @@ import Projects from "./components/projects/Projects";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <About />
-      <Experience />
-      <Projects />
-      <Footer />
-    </>
+    <div>
+      <div className="flex flex-col max-w-screen-md mx-auto px-6">
+        <NavBar />
+        <About />
+        <Experience />
+        <Projects />
+        <Footer />
+      </div>
+    </div>
   );
 }
 
