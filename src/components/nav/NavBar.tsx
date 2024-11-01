@@ -15,11 +15,10 @@ const NavBar: React.FC = () => {
     <nav className="flex items-center py-7 text-gray-300">
       <ul className="flex gap-4 sm:gap-8">
         {navlinks.map((nav, id) => (
-          <li key={id} className="hover:text-gray-100 cursor-pointer">
+          <li key={id} className="hover:text-[#d2b7e5] cursor-pointer">
             <a
               href={nav}
               onClick={() => handleScroll(nav)}
-              className="hover:underline"
             >
               {nav}
             </a>

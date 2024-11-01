@@ -8,21 +8,21 @@ const Footer: React.FC = () => {
         <hr className="w-56 h-0.5 mx-auto bg-gray-100 border-0 rounded dark:bg-gray-700" />
 
         <a href="mailto:avallpipuranathan@gmail.com">
-          <Mail className="text-gray-300 hover:text-white" />
+          <Mail className="text-gray-300 hover:text-white hover:text-[#d2b7e5]" />
         </a>
         <a
           href="https://github.com/avallip443"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Github className="text-gray-300 hover:text-white" />
+          <Github className="text-gray-300 hover:text-[#d2b7e5]" />
         </a>
         <a
           href="https://www.linkedin.com/in/avallip/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Linkedin className="text-gray-300 hover:text-white" />
+          <Linkedin className="text-gray-300 hover:text-[#d2b7e5]" />
         </a>
 
         <hr className="w-56 h-0.5 mx-auto bg-gray-100 border-0 rounded dark:bg-gray-700" />
