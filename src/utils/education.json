@@ -1,0 +1,12 @@
+{
+  "education": [
+    {
+        "name": "Toronto Metropolitan University",
+        "title": "BSc (Hons) in Computer Science ",
+        "logo": "education/tmu.jpeg",
+        "start": "Sep. 2022",
+        "end": "Apr. 2027 (expected)",
+        "description": ["CGPA of 4.16/4.33 and 2x Dean's List", "Pursuing minor in mathematics"]
+    }
+  ]
+}

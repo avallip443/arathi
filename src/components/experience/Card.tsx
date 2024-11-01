@@ -6,7 +6,7 @@ interface CardProps {
   logo: string;
   start: string;
   end: string;
-  description: string;
+  description: string[];
 }
 
 const Card: React.FC<CardProps> = ({
@@ -15,6 +15,7 @@ const Card: React.FC<CardProps> = ({
   logo,
   start,
   end,
+  description
 }) => {
   return (
     <div className="relative flex items-top gap-x-4">
@@ -28,11 +29,18 @@ const Card: React.FC<CardProps> = ({
       </div>
 
       <div className="pl-4 pb-10">
-        <p className="text-sm text-gray-500">
+        <p className="text-sm text-gray-400">
           {start} - {end}
         </p>
         <h3 className="font-semibold text-lg">{title}</h3>
-        <h4 className="text-gray-400">{name}</h4>
+        <h4 className="text-gray-300">{name}</h4>
+        <ul className="mt-2 list-disc list-inside">
+          {description && description.map((desc, index) => (
+            <li key={index} className="text-gray-300 text-sm">
+              {desc}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
