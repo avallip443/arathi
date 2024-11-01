@@ -1,4 +1,4 @@
-import ExperienceCard from "./ExperienceCard";
+import Card from "../shared/Card";
 import experienceData from "../../utils/experience.json";
 
 const ExperienceList: React.FC = () => {
@@ -6,12 +6,13 @@ const ExperienceList: React.FC = () => {
     <div className="border py-8 px-6 border-gray-700 rounded-lg">
       {experienceData.experience.map((exp, index) => (
         <div key={index} className="relative">
-          <ExperienceCard
-            company={exp.company}
+          <Card
+            name={exp.name}
             title={exp.title}
             logo={exp.logo}
             start={exp.start}
             end={exp.end || "Present"}
+            description={exp.description}
           />
         </div>
       ))}
