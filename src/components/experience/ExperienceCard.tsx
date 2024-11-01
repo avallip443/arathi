@@ -16,21 +16,22 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
   end,
 }) => {
   return (
-    <div className="relative flex items-center px-4">
-      <div className="relative pr-4">
+    <div className="relative flex items-top gap-x-4">
+      <div className="relative">
+        <span className="absolute top-0 bottom-0 left-1/2 w-px bg-gray-700"></span>
         <img
           src={logo}
           alt={`${company} logo`}
-          className="w-12 h-12 rounded-full"
+          className="w-14 rounded-full border-2 border-gray-800 relative z-10"
         />
       </div>
 
-      <div className="pl-4">
-        <p className="text-gray-500 text-sm">
+      <div className="pl-4 pb-10">
+        <p className="text-sm text-gray-500">
           {start} - {end}
         </p>
-        <h2 className="font-semibold">{title}</h2>
-        <h3 className="text-gray-700">{company}</h3>
+        <h3 className="font-semibold text-lg">{title}</h3>
+        <h4 className="text-gray-400">{company}</h4>
       </div>
     </div>
   );
