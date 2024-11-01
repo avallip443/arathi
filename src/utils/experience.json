@@ -1,0 +1,56 @@
+{
+  "experience": [
+    {
+      "company": "Lumerate",
+      "title": "(Incoming) Software Developer",
+      "logo": "experience/lumerate.jpeg",
+      "start": "Jan. 2025",
+      "end": "Sep. 2025"
+    },
+    {
+      "company": "Game Maker's Union",
+      "title": "Game Developer",
+      "logo": "experience/game-makers.jpeg",
+      "start": "Sep. 2024"
+    },
+    {
+      "company": "Quantum Science and Engineering Club",
+      "title": "Web Developer",
+      "logo": "experience/qsec.jpg",
+      "start": "Aug. 2024"
+    },
+    {
+      "company": "Tamils in Finance",
+      "title": "Web Developer",
+      "logo": "experience/tif.jpeg",
+      "start": "Mar. 2024"
+    },
+    {
+      "company": "Kumon",
+      "title": "Teaching Assistant",
+      "logo": "experience/kumon.jpeg",
+      "start": "Jul. 2022"
+    },
+    {
+      "company": "Home Services Inc.",
+      "title": "Software Developer",
+      "logo": "experience/home-services.jpg",
+      "start": "Apr. 2024",
+      "end": "Jul. 2024"
+    },
+    {
+      "company": "BoostHer",
+      "title": "Ambassador",
+      "logo": "experience/boosther.jpeg",
+      "start": "Feb. 2024",
+      "end": "Sep. 2024"
+    },
+    {
+      "company": "Toronto Met Rocketry",
+      "title": "Ground Station GUI Developer",
+      "logo": "experience/met-rocketry.jpeg",
+      "start": "Jan. 2024",
+      "end": "Sep. 2024"
+    }
+  ]
+}
