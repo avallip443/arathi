@@ -1,9 +1,11 @@
 import React from "react";
+import ProjectsList from "./ProjectsList";
 
 const Projects: React.FC = () => {
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className="py-12">
+      <h1 className="font-bold text-3xl">Projects</h1>
+      <ProjectsList />
     </div>
   );
 };

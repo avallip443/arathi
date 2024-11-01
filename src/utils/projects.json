@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "name": "📱 Instragram Clone",
+      "description": "Instagram replica with user authentication and real-time post-creation and interactions",
+      "tools": "React, Firebase, Zustand",
+      "github": "https://github.com/avallip443/instagram-clone",
+      "preview": "https://instagram-clone-four-topaz.vercel.app/auth"
+    },
+    {
+      "name": "⚔️ WarriorQuest",
+      "description": "2D turn-based RPG game where players battle against powerful enemies to become the ultimate warrior :O",
+      "tools": "Python, Pygame",
+      "github": "https://github.com/avallip443/WarriorQuest",
+      "preview": "https://avallip.itch.io/warriorquest"
+    },
+    {
+      "name": "⚽ ScoreSphere",
+      "description": "Web app for tracking statistics for 700+ LaLiga players",
+      "tools": "React, TypeScript, SpringBoot, PostgreSQL, Python",
+      "github": "https://github.com/avallip443/scoresphere",
+      "preview": "https://scoresphere.vercel.app/"
+    },
+    {
+      "name": "🤖 Pokemon Twitter Bot",
+      "description": "Automated Twitter bot that posts random daily Pokémon images and descriptions",
+      "tools": "Python, Pandas, TweepyAPI",
+      "github": "https://github.com/avallip443/pokemon-twitter-bot",
+      "preview": "https://x.com/PokemonDaily4"
+    },
+    {
+      "name": "🏋️ WorkIt [Ongoing]",
+      "description": "Mobile app for managing interval training workouts, featuring custom timers and progress tracking",
+      "tools": "React Native, Typescript, PostgreSQL",
+      "github": "https://github.com/avallip443/workit",
+      "preview": ""
+    },
+    {
+      "name": "💵 Expense Tracker",
+      "description": "Tracker for logging, categorizing, and visualizing daily expenses",
+      "tools": "ReactJS, ExpressJS, NodeJS, MongoDB",
+      "github": "https://github.com/avallip443/expense-tracker",
+      "preview": "https://expense-tracker-app-sage.vercel.app"
+    }
+  ]
+}
