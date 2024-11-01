@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ExperienceList from "./ExperienceList";
+import EducationList from "./EducationList";
 
 type Tab = "Education" | "Experience";
 
@@ -7,7 +8,7 @@ const Experience: React.FC = () => {
   const [activeTab, setActiveTab] = useState<Tab>("Experience");
 
   return (
-    <div className="py-12">
+    <div className="py-10">
       {/* Tabs */}
       <div className="flex border-b border-gray-300">
         <button
@@ -36,14 +37,7 @@ const Experience: React.FC = () => {
       <div className="mt-4">
         {activeTab === "Education" && (
           <div>
-            <h3 className="text-lg font-semibold">Education</h3>
-            <p className="text-gray-700">
-              <strong>title</strong> <br />
-              subtitle <br />
-              text <br />
-              text <br />
-              text
-            </p>
+            <EducationList />
           </div>
         )}
         {activeTab === "Experience" && (
