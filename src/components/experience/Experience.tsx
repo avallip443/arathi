@@ -10,23 +10,19 @@ const Experience: React.FC = () => {
   return (
     <div className="py-10">
       {/* Tabs */}
-      <div className="flex border-b border-gray-300">
+      <div className="flex rounded-lg bg-gray-800 p-1">
         <button
           onClick={() => setActiveTab("Experience")}
-          className={`flex-1 py-2 text-center ${
-            activeTab === "Experience"
-              ? "border-b-2 border-blue-500 text-blue-500"
-              : "text-gray-500"
+          className={`flex-1 py-2 text-center rounded-lg ${
+            activeTab === "Experience" ? "bg-[#030712]" : "text-gray-400"
           }`}
         >
           Experience
         </button>
         <button
           onClick={() => setActiveTab("Education")}
-          className={`flex-1 py-2 text-center ${
-            activeTab === "Education"
-              ? "border-b-2 border-blue-500 text-blue-500"
-              : "text-gray-500"
+          className={`flex-1 py-2 text-center rounded-lg ${
+            activeTab === "Education" ? "bg-[#030712]" : "text-gray-400"
           }`}
         >
           Education
