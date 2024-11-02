@@ -19,16 +19,17 @@ const Card: React.FC<CardProps> = ({
 }) => {
   return (
     <div className="relative flex items-top gap-x-4">
+      {/** Image */}
       <div className="relative">
-        <span className="absolute top-0 bottom-0 left-1/2 w-px bg-gray-700"></span>
+        <span className="absolute top-0 bottom-0 left-1/2 w-px bg-gray-700 z-0"></span>
         <img
           src={logo}
           alt={`${name} logo`}
-          className="w-14 rounded-full border-2 border-gray-800 relative z-10"
+          className="relative w-12 sm:w-14 rounded-full border-2 border-gray-800 z-10"
         />
       </div>
 
-      <div className="pl-4 pb-10">
+      <div className="w-4/5 pl-4 pb-10">
         <p className="text-sm text-gray-400">
           {start} - {end}
         </p>

@@ -8,7 +8,7 @@ const Experience: React.FC = () => {
   const [activeTab, setActiveTab] = useState<Tab>("Experience");
 
   return (
-    <div className="pt-12">
+    <div className="pt-6 md:pt-12">
       {/* Tabs */}
       <div className="flex rounded-lg bg-gray-800 p-1">
         <button
