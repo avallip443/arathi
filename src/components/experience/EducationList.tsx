@@ -12,7 +12,7 @@ const EducationList: React.FC = () => {
             logo={edu.logo}
             start={edu.start}
             end={edu.end || "Present"}
-            description={edu.description}
+            description={edu.description || [""]}
           />
         </div>
       ))}
