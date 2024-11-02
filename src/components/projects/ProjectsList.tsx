@@ -11,7 +11,7 @@ const ProjectsList: React.FC = () => {
             description={proj.description}
             tools={proj.tools}
             github={proj.github}
-            preview={proj.preview || "Present"}
+            preview={proj.preview}
           />
         </div>
       ))}
