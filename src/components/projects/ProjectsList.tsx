@@ -5,13 +5,13 @@ const ProjectsList: React.FC = () => {
   return (
     <div className="pt-8 flex flex-wrap gap-4">
       {projectData.projects.map((proj, index) => (
-        <div key={index} className="relative w-[48%]">
+        <div key={index} className="relative sm:w-[48%]">
           <ProjectCard
             name={proj.name}
             description={proj.description}
             tools={proj.tools}
             github={proj.github}
-            preview={proj.preview}
+            preview={proj.preview || ""}
           />
         </div>
       ))}

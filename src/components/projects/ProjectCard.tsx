@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({
   const toolsArray = tools.split(", ");
 
   return (
-    <div className="h-64 flex flex-col justify-between px-6 py-8 border-2 border-gray-800 rounded-lg">
+    <div className="h-72 sm:h-64 flex flex-col justify-between px-6 py-8 border-2 border-gray-800 rounded-lg">
       <div>
         <h3 className="font-semibold text-xl text-center mb-5">{name}</h3>
 
