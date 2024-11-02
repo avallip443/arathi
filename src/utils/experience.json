@@ -6,35 +6,35 @@
       "logo": "experience/lumerate.jpeg",
       "start": "Jan. 2025",
       "end": "Sep. 2025",
-      "description": null
+      "description": []
     },
     {
       "name": "Game Maker's Union",
       "title": "Game Developer",
       "logo": "experience/game-makers.jpeg",
       "start": "Sep. 2024",
-      "description": null
+      "description": []
     },
     {
       "name": "Quantum Science and Engineering Club",
       "title": "Web Developer",
       "logo": "experience/qsec.jpg",
       "start": "Aug. 2024",
-      "description": null
+      "description": []
     },
     {
       "name": "Tamils in Finance",
       "title": "Web Developer",
       "logo": "experience/tif.jpeg",
       "start": "Mar. 2024",
-      "description": null
+      "description": []
     },
     {
       "name": "Kumon",
       "title": "Teaching Assistant",
       "logo": "experience/kumon.jpeg",
       "start": "Jul. 2022",
-      "description": null
+      "description": []
     },
     {
       "name": "Home Services Inc.",
@@ -42,7 +42,7 @@
       "logo": "experience/home-services.jpg",
       "start": "Apr. 2024",
       "end": "Jul. 2024",
-      "description": null
+      "description": []
     },
     {
       "name": "BoostHer",
@@ -50,7 +50,7 @@
       "logo": "experience/boosther.jpeg",
       "start": "Feb. 2024",
       "end": "Sep. 2024",
-      "description": null
+      "description": []
     },
     {
       "name": "Toronto Met Rocketry",
@@ -58,7 +58,7 @@
       "logo": "experience/met-rocketry.jpeg",
       "start": "Jan. 2024",
       "end": "Sep. 2024",
-      "description": null
+      "description": []
     }
   ]
 }

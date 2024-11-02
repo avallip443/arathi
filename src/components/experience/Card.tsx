@@ -36,7 +36,7 @@ const Card: React.FC<CardProps> = ({
         <h3 className="font-semibold text-lg">{title}</h3>
         <h4 className="text-gray-400">{name}</h4>
         <ul className="mt-2 list-disc list-inside">
-          {description && description.map((desc, index) => (
+          {description.length != 0 && description.map((desc, index) => (
             <li key={index} className="text-gray-300 text-sm">
               {desc}
             </li>
