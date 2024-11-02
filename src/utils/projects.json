@@ -33,7 +33,7 @@
       "description": "Mobile app for managing interval training workouts, featuring custom timers and progress tracking",
       "tools": "React Native, Typescript, PostgreSQL",
       "github": "https://github.com/avallip443/workit",
-      "preview": ""
+      "preview": null
     },
     {
       "name": "💵 Expense Tracker",
