@@ -16,7 +16,7 @@ const About: React.FC = () => {
 
           <p className="text-gray-300 pb-8">
             I like building full-stack applications, exploring new technologies,
-            and making tea.
+            and making (okay) coffee.
           </p>
 
           <div className="flex gap-6 md:gap-8 items-center">
