@@ -34,7 +34,7 @@ const Card: React.FC<CardProps> = ({
           ))}
         </div>
 
-        <p className="mt-2">{description}</p>
+        <p className="text-sm mt-3">{description}</p>
       </div>
 
       <div className="flex gap-4 mt-2">
