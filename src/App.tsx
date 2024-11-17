@@ -9,9 +9,15 @@ function App() {
     <div>
       <div className="flex flex-col max-w-screen-md mx-auto px-6">
         <NavBar />
-        <About />
-        <Experience />
-        <Projects />
+        <div id="about">
+          <About />
+        </div>
+        <div id="experience">
+          <Experience />
+        </div>
+        <div id="projects">
+          <Projects />
+        </div>
         <Footer />
       </div>
     </div>

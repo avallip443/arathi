@@ -20,6 +20,10 @@ body {
     color: var(--foreground);
 }
 
+nav {
+    background-color: var(--background);
+}
+
 h3, h4, p {
     font-family: var(--font-primary);
 }
