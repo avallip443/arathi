@@ -9,13 +9,6 @@
       "description": [""]
     },
     {
-      "name": "Game Maker's Union",
-      "title": "Game Developer",
-      "logo": "experience/game-makers.jpeg",
-      "start": "Sep. 2024",
-      "description": [""]
-    },
-    {
       "name": "Quantum Science and Engineering Club",
       "title": "Web Developer",
       "logo": "experience/qsec.jpg",
@@ -37,9 +30,9 @@
       "description": [""]
     },
     {
-      "name": "Home Services Inc.",
+      "name": "Stealth Startup",
       "title": "Software Developer",
-      "logo": "experience/home-services.jpg",
+      "logo": "experience/stealth-startup.jpg",
       "start": "Apr. 2024",
       "end": "Jul. 2024",
       "description": [""]
