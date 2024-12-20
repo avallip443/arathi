@@ -7,6 +7,7 @@
 :root {
     --background: #030712;
     --foreground: #f9fafb;
+    --accent: #d2b7e5;
     --font-primary: "Poppins",
         sans-serif;
     --font-secondary: "Inter",
@@ -31,5 +32,9 @@ h3, h4, p {
 h1 {
     font-family: var(--font-accent);
     font-weight: bold;
-    color: #d2b7e5;
+    color: var(--accent);
+}
+
+h2 {
+    font-family: var(--font-accent);
 }
