@@ -1,84 +1,74 @@
 {
   "projects": [
-    {
-      "name": "📱 Instragram Clone",
-      "description": "Instagram replica with user authentication and real-time post-creation and interactions",
-      "tools": "React, Firebase, Zustand",
-      "github": "https://github.com/avallip443/instagram-clone",
-      "preview": "https://instagram-clone-four-topaz.vercel.app/auth",
-      "type": "personal"
+     {
+      "name": "👈 ASL Sign Recognition",
+      "description": "Real-time system that recognizes and interprets American Sign Language",
+      "tools": "Mediapipe, SVM, OpenCV, Python, and Flask",
+      "github": "https://github.com/avallip443/asl-sign-recognition",
+      "preview": null
     },
     {
       "name": "⚔️ WarriorQuest",
       "description": "2D turn-based RPG game where players battle against powerful enemies to become the ultimate warrior :O",
       "tools": "Python, Pygame",
       "github": "https://github.com/avallip443/WarriorQuest",
-      "preview": "https://avallip.itch.io/warriorquest",
-      "type": "personal"
+      "preview": "https://avallip.itch.io/warriorquest"
+    },
+    {
+      "name": "📱 Instragram Clone",
+      "description": "Instagram replica with user authentication and real-time post-creation and interactions",
+      "tools": "React, Firebase, Zustand",
+      "github": "https://github.com/avallip443/instagram-clone",
+      "preview": "https://instagram-clone-four-topaz.vercel.app/auth"
     },
     {
       "name": "⚽ ScoreSphere",
       "description": "Web app for tracking statistics for 700+ LaLiga players",
       "tools": "React, TypeScript, SpringBoot, PostgreSQL, Python",
       "github": "https://github.com/avallip443/scoresphere",
-      "preview": "https://scoresphere.vercel.app/",
-      "type": "personal"
-    },
-    {
-      "name": "🤖 Pokemon Twitter Bot",
-      "description": "Automated Twitter bot that posts random daily Pokémon images and descriptions",
-      "tools": "Python, Pandas, TweepyAPI",
-      "github": "https://github.com/avallip443/pokemon-twitter-bot",
-      "preview": "https://x.com/PokemonDaily4",
-      "type": "personal"
-    },
-    {
-      "name": "🏋️ WorkIt [Ongoing]",
-      "description": "Mobile app for managing interval training workouts, featuring custom timers and progress tracking",
-      "tools": "React Native, Typescript, PostgreSQL",
-      "github": "https://github.com/avallip443/workit",
-      "preview": null,
-      "type": "personal"
-    },
-    {
-      "name": "💵 Expense Tracker",
-      "description": "Tracker for logging, categorizing, and visualizing daily expenses",
-      "tools": "ReactJS, ExpressJS, NodeJS, MongoDB",
-      "github": "https://github.com/avallip443/expense-tracker",
-      "preview": "https://expense-tracker-app-sage.vercel.app",
-      "type": "personal"
+      "preview": "https://scoresphere.vercel.app/"
     },
     {
       "name": "🔠 Miffle",
       "description": "Miffy-themed Wordle game to guess a 5-letter word in 6 tries",
       "tools": "Ruby, Sinatra, HTML, CSS, JavaScript",
       "github": "https://github.com/avallip443/miffle",
-      "preview": null,
-      "type": "personal"
+      "preview": null
     },
     {
-      "name": "👈 ASL Sign Recognition",
-      "description": "Real-time system that recognizes and interprets American Sign Language",
-      "tools": "Mediapipe, SVM, OpenCV, Python, and Flask",
-      "github": "https://github.com/avallip443/asl-sign-recognition",
-      "preview": null,
-      "type": "academic"
+      "name": "🤖 Pokemon Twitter Bot",
+      "description": "Automated Twitter bot that posts random daily Pokémon images and descriptions",
+      "tools": "Python, Pandas, TweepyAPI",
+      "github": "https://github.com/avallip443/pokemon-twitter-bot",
+      "preview": "https://x.com/PokemonDaily4"
+    },
+    {
+      "name": "🏋️ WorkIt [Ongoing]",
+      "description": "Mobile app for managing interval training workouts, featuring custom timers and progress tracking",
+      "tools": "React Native, Typescript, PostgreSQL",
+      "github": "https://github.com/avallip443/workit",
+      "preview": null
+    },
+    {
+      "name": "💵 Expense Tracker",
+      "description": "Tracker for logging, categorizing, and visualizing daily expenses",
+      "tools": "ReactJS, ExpressJS, NodeJS, MongoDB",
+      "github": "https://github.com/avallip443/expense-tracker",
+      "preview": "https://expense-tracker-app-sage.vercel.app"
     },
     {
       "name": "⚽ Soccer League Management System",
       "description": "DBMS to organize soccer leagues, including teams, matches, and stats",
       "tools": "SQL, Bash, Python",
       "github": "https://github.com/avallip443/soccer-league-management-system",
-      "preview": null,
-      "type": "academic"
+      "preview": null
     },
     {
       "name": "🐞 Bug Reporting System",
       "description": "Dashboard for tracking, managing, and analyzing bug reports and statistics",
       "tools": "React, NodeJS, Firebase",
       "github": "https://github.com/avallip443/bug-reporting-system",
-      "preview": null,
-      "type": "academic"
+      "preview": null
     }
   ]
 }
