@@ -15,7 +15,7 @@
       "preview": "https://avallip.itch.io/warriorquest"
     },
     {
-      "name": "📱 Instragram Clone",
+      "name": "📱 Instagram Clone",
       "description": "Instagram replica with user authentication and real-time post-creation and interactions",
       "tools": "React, Firebase, Zustand",
       "github": "https://github.com/avallip443/instagram-clone",
