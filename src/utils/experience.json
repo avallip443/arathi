@@ -5,7 +5,7 @@
       "title": "(Incoming) Software Developer",
       "logo": "experience/lumerate.jpeg",
       "start": "Jan. 2025",
-      "end": "Sep. 2025",
+      "end": "Aug. 2025",
       "description": [""]
     },
     {
@@ -20,13 +20,15 @@
       "title": "Web Developer",
       "logo": "experience/tif.jpeg",
       "start": "Mar. 2024",
-      "description": [""]
+      "description": [""],
+      "link": "https://tamilsinfinance.ca/"
     },
     {
       "name": "Kumon",
       "title": "Teaching Assistant",
       "logo": "experience/kumon.jpeg",
       "start": "Jul. 2022",
+      "end": "Dec. 2024",
       "description": [""]
     },
     {
@@ -35,22 +37,6 @@
       "logo": "experience/stealth-startup.jpg",
       "start": "Apr. 2024",
       "end": "Jul. 2024",
-      "description": [""]
-    },
-    {
-      "name": "BoostHer",
-      "title": "Ambassador",
-      "logo": "experience/boosther.jpeg",
-      "start": "Feb. 2024",
-      "end": "Sep. 2024",
-      "description": [""]
-    },
-    {
-      "name": "Toronto Met Rocketry",
-      "title": "Ground Station GUI Developer",
-      "logo": "experience/met-rocketry.jpeg",
-      "start": "Jan. 2024",
-      "end": "Sep. 2024",
       "description": [""]
     }
   ]

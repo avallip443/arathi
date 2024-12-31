@@ -1,4 +1,5 @@
 import React from "react";
+import { Globe } from "lucide-react";
 
 interface CardProps {
   name: string;
@@ -7,6 +8,7 @@ interface CardProps {
   start: string;
   end: string;
   description: string[];
+  link?: string;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -15,7 +17,8 @@ const Card: React.FC<CardProps> = ({
   logo,
   start,
   end,
-  description
+  description,
+  link,
 }) => {
   return (
     <div className="relative flex items-top gap-x-4">
@@ -43,6 +46,14 @@ const Card: React.FC<CardProps> = ({
               </li>
             ))}
         </ul>
+        {link && (
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            <button className="flex items-center bg-white text-black rounded-md px-2 text-xs hover:bg-[#d2b7e5]">
+              <Globe className="w-3 mr-2" />
+              Website
+            </button>
+          </a>
+        )}
       </div>
     </div>
   );
