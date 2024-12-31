@@ -13,6 +13,7 @@ const ExperienceList: React.FC = () => {
             start={exp.start}
             end={exp.end || "Present"}
             description={exp.description}
+            link={exp.link}
           />
         </div>
       ))}
