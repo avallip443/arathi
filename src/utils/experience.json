@@ -2,16 +2,9 @@
   "experience": [
     {
       "name": "Lumerate",
-      "title": "Software Developer",
+      "title": "Backend Developer Intern",
       "logo": "experience/lumerate.jpeg",
       "start": "Jan. 2025",
-      "description": [""]
-    },
-    {
-      "name": "Quantum Science and Engineering Club",
-      "title": "Web Developer",
-      "logo": "experience/qsec.jpg",
-      "start": "Aug. 2024",
       "description": [""]
     },
     {
@@ -32,7 +25,7 @@
     },
     {
       "name": "Stealth Startup",
-      "title": "Software Developer",
+      "title": "Software Developer Intern",
       "logo": "experience/stealth-startup.jpg",
       "start": "Apr. 2024",
       "end": "Jul. 2024",
