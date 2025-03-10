@@ -11,7 +11,7 @@ const About: React.FC = () => {
           </h1>
 
           <h4 className="text-lg pb-5">
-            computer science student @ toronto metropolitan university
+            computer science @ toronto metropolitan university
           </h4>
 
           <p className="text-gray-300 pb-8">
