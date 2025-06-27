@@ -7,7 +7,7 @@ const ExperienceList: React.FC = () => {
       {experienceData.experience.map((exp, index) => (
         <div key={index} className="relative">
           <Card
-            name={exp.name}
+            org_name={exp.name}
             title={exp.title}
             logo={exp.logo}
             start={exp.start}

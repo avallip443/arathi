@@ -7,12 +7,13 @@ const EducationList: React.FC = () => {
       {educationData.education.map((edu, index) => (
         <div key={index} className="relative">
           <Card
-            name={edu.name}
+            org_name={edu.name}
             title={edu.title}
             logo={edu.logo}
             start={edu.start}
             end={edu.end || "Present"}
             description={edu.description}
+            descriptionAsList={true}
           />
         </div>
       ))}

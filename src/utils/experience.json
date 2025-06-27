@@ -2,33 +2,33 @@
   "experience": [
     {
       "name": "Lumerate",
+      "title": "Software Developer Intern",
+      "logo": "experience/lumerate.jpeg",
+      "start": "05.2025",
+      "description": ["User Platform Features"]
+    },
+    {
+      "name": "Lumerate",
       "title": "Backend Developer Intern",
       "logo": "experience/lumerate.jpeg",
-      "start": "Jan. 2025",
-      "description": [""]
+      "start": "01.2025",
+      "end": "05.2025",
+      "description": ["Data Processing Pipelines"]
     },
     {
       "name": "Tamils in Finance",
       "title": "Web Developer",
       "logo": "experience/tif.jpeg",
-      "start": "Mar. 2024",
+      "start": "03.2024",
       "description": [""],
       "link": "https://tamilsinfinance.ca/"
-    },
-    {
-      "name": "Kumon",
-      "title": "Teaching Assistant",
-      "logo": "experience/kumon.jpeg",
-      "start": "Jul. 2022",
-      "end": "Dec. 2024",
-      "description": [""]
     },
     {
       "name": "Stealth Startup",
       "title": "Software Developer Intern",
       "logo": "experience/stealth-startup.jpg",
-      "start": "Apr. 2024",
-      "end": "Jul. 2024",
+      "start": "04.2024",
+      "end": "07.2024",
       "description": [""]
     }
   ]

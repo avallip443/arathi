@@ -3,7 +3,7 @@
      {
       "name": "👈 ASL Sign Recognition",
       "description": "Real-time system that recognizes and interprets American Sign Language",
-      "tools": "Mediapipe, SVM, OpenCV, Python, and Flask",
+      "tools": "Mediapipe, SVM, OpenCV, Python, Flask",
       "github": "https://github.com/avallip443/asl-sign-recognition",
       "preview": null
     },
@@ -15,11 +15,11 @@
       "preview": "https://avallip.itch.io/warriorquest"
     },
     {
-      "name": "📱 Instagram Clone",
-      "description": "Instagram replica with user authentication and real-time post-creation and interactions",
-      "tools": "React, Firebase, Zustand",
-      "github": "https://github.com/avallip443/instagram-clone",
-      "preview": "https://instagram-clone-four-topaz.vercel.app/auth"
+      "name": "🌒 Eclipse",
+      "description": "Chat application with temporary profiles and auto-expiring rooms for casual, low-commitment conversations",
+      "tools": "NodeJS, SocketIO, ExpressJS",
+      "github": "https://github.com/avallip443/eclipse",
+      "preview": null
     },
     {
       "name": "⚽ ScoreSphere",
@@ -43,11 +43,11 @@
       "preview": "https://x.com/PokemonDaily4"
     },
     {
-      "name": "🏋️ WorkIt [Ongoing]",
-      "description": "Mobile app for managing interval training workouts, featuring custom timers and progress tracking",
-      "tools": "React Native, Typescript, PostgreSQL",
-      "github": "https://github.com/avallip443/workit",
-      "preview": null
+      "name": "📱 Instagram Clone",
+      "description": "Instagram replica with user authentication and real-time post-creation and interactions",
+      "tools": "React, Firebase, Zustand",
+      "github": "https://github.com/avallip443/instagram-clone",
+      "preview": "https://instagram-clone-four-topaz.vercel.app/auth"
     },
     {
       "name": "💵 Expense Tracker",
