@@ -1,10 +1,19 @@
 {
   "experience": [
     {
+      "name": "Toronto Metropolitan University",
+      "title": "Co-op Peer Advisor",
+      "logo": "education/tmu.jpeg",
+      "start": "08.2025",
+      "end": "Present",
+      "description": [""]
+    },
+    {
       "name": "Lumerate",
       "title": "Software Developer Intern",
       "logo": "experience/lumerate.jpeg",
       "start": "05.2025",
+      "end": "Present",
       "description": ["User Platform Features"]
     },
     {
