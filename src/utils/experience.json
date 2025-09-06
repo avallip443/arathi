@@ -1,6 +1,14 @@
 {
   "experience": [
     {
+      "name": "theScore/PENN Entertainment",
+      "title": "Software Developer Intern",
+      "logo": "experience/thescore.jpeg",
+      "start": "09.2025",
+      "end": "Present",
+      "description": [""]
+    },
+    {
       "name": "Toronto Metropolitan University",
       "title": "Co-op Peer Advisor",
       "logo": "education/tmu.jpeg",
@@ -13,8 +21,8 @@
       "title": "Software Developer Intern",
       "logo": "experience/lumerate.jpeg",
       "start": "05.2025",
-      "end": "Present",
-      "description": ["User Platform Features"]
+      "end": "08.2025",
+      "description": [""]
     },
     {
       "name": "Lumerate",
@@ -22,7 +30,7 @@
       "logo": "experience/lumerate.jpeg",
       "start": "01.2025",
       "end": "05.2025",
-      "description": ["Data Processing Pipelines"]
+      "description": [""]
     },
     {
       "name": "Tamils in Finance",
